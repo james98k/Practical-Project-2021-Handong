@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        h1 {
+            display: block;
+            font-size: 2em;
+            margin-block-start: 0.67em;
+            margin-block-end: 0.67em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            font-weight: bold;
+        }
+
+        body{
+            font : 100% Lucida Sans, Verdana;
+            background-color: #E7E9EB;
+            line-height: 26px;
+        }
+        
+        #header-area, #footer, .right-sidebar, .menu-item{
+            border-radius: 5px;
+        
+        }
+
+
+        .main-responsive-wrapper{
+            width : 100%;
+            height : auto;
+
+            max-width : 1000px;
+
+            /* display : flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center; */
+
+            display : block;
+            margin : 0 auto;
+            padding : 20px;
+            box-sizing: border-box;
+
+            /* background-color: #fff; */
+            /* border : solid red; */
+
+        }
+        #header-area h1 {
+            margin: 0;
+            padding: 0;
+            
+        }
+        
+        #header-area{
+            width : 100%;
+            height : 100px;
+
+            display : block;
+            float: left;
+
+            padding : 15px;
+            box-sizing: border-box;
+
+            background-color : #04AA6d;
+            color : #fff;
+        }
+
+        #body-area{
+            width : 100%;
+            display : block;
+            float: left;
+
+            padding : 10px;
+            box-sizing: border-box;
+            background-color: #fff;
+            /* border : solid red; */
+        }
+
+        .left-sidebar{
+            width : 200px;
+
+            display : block;
+            float: left;
+            /* border :solid green; */
+            
+        }
+        .sidebar-menu{
+            width : 180px;
+            display : block;
+
+            margin-left : -30px;
+
+        }
+        .menu-item{
+            display: list-item;
+            background-color: #f1f1f1;
+            border: 1px solid #d4d4d4;
+            list-style-type: none;
+            padding: 2px;
+            cursor: pointer;
+        }
+        .menu-item:nth-child(1) {
+            background-color: #04AA6D;
+            color: white;
+            font-weight: bold;
+        }
+        .main-area{
+            width : 540px;
+            
+            display : block;
+            float : left;
+
+            padding : 10px;
+            box-sizing: border-box;
+            /* border : solid red; */
+        }
+        .right-sidebar{
+            width : 200px;
+            display: block;
+            float: left;
+
+            padding : 10px;
+            box-sizing: border-box;
+            color : #fff;
+            background-color:#32a4e7 ;
+        }
+
+        #footer-area{
+            width : 100%;
+            
+            display : block;
+            float: left;
+            padding : 5px 3px;
+            box-sizing: border-box;
+
+            background-color: #f1f1f1;
+            
+        }
+        #footer-area > p{
+            font-size : 15px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class = "main-responsive-wrapper">
+
+        <div id = "header-area">
+            <h1>
+                Welcome to My Homepage
+            </h1>
+            <p>Use the menu to select different StyleSheets</p>
+        </div>
+        <div id = "body-area">
+            <div class = "left-sidebar">
+               
+                <ul class = "sidebar-menu">
+                    <li class = "menu-item">stylesheet1</li>
+                    <li class = "menu-item">stylesheet2</li>
+                    <li class = "menu-item">stylesheet3</li>
+                    <li class = "menu-item">stylesheet4</li>
+                    <li class = "menu-item">no Stylesheet</li>
+                </ul>
+            </div>
+    
+            <div class = "main-area">
+                <h1>Samge Page different StyleSheets</h1>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, nam, aliquam fugit dolor commodi exercitationem ab iure quae, maiores nisi ipsum fugiat voluptates vel molestias. Eaque dolorem ipsa similique facilis.: 
+                <br>
+                <a href = "#">stylesheet1</a>
+                <a href = "#">stylesheet2</a>
+                <a href = "#">stylesheet3</a>
+                <a href = "#">stylesheet4</a>
+    
+                <h2>No Steyles</h2>
+                <p>
+                    This page uses DIV elements to group different sections of the HTML page. Click here to see how the page looks like with no stylesheet:
+                </p>
+                <a href="#">No Stylesheet.</a>
+            </div>
+    
+            <div class = "right-sidebar">
+                <h3>Side-Bar</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eligendi consequatur magnam dolores quasi voluptas quam labore eos sapiente ducimus minima fugiat, iusto illo repellendus cumque cupiditate eius pariatur nesciunt!</p>
+            </div>
+        </div>
+        <div id = "footer-area">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam maiores voluptates alias delectus laudantium modi necessitatibus maxime voluptatum tempora unde dignissimos, deserunt quia, 
+                laborum est ullam optio minima, vel molestiae. 
+            </p>
+           
+        </div>
+
+    </div>
+    
+
+</body>
+</html>
